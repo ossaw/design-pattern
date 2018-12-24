@@ -1,23 +1,23 @@
 package com.github.factory.factory;
 
-import com.github.factory.product.Circle;
-import com.github.factory.product.Rectangle;
-import com.github.factory.product.Shape;
-import com.github.factory.product.Square;
+import com.github.factory.shape.Circle;
+import com.github.factory.shape.Rectangle;
+import com.github.factory.shape.Shape;
+import com.github.factory.shape.Square;
 
 public class ShapeFactory {
-    public static final String CIRCLE = "circle";
-    public static final String RECTANGLE = "rectangle";
-    public static final String SQUARE = "square";
+    public static enum ShapeEnum {
+        CIRCLE, RECTANGLE, SQUARE;
+    }
 
-    public static Shape getShape(String type) {
+    public static Shape getShape(ShapeEnum type) {
         if (type == null)
             return null;
-        if (CIRCLE.equals(type))
+        if (type == ShapeEnum.CIRCLE)
             return new Circle();
-        else if (SQUARE.equals(type))
+        else if (type == ShapeEnum.RECTANGLE)
             return new Square();
-        else if (RECTANGLE.equals(type))
+        else if (type == ShapeEnum.SQUARE)
             return new Rectangle();
         return null;
     }

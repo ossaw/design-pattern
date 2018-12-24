@@ -1,4 +1,4 @@
-package com.github.factory.product;
+package com.github.abstractfactory.shape;
 
 public class Square implements Shape {
 
