@@ -1,4 +1,4 @@
-package com.github.annotation;
+package com.github.singleton.annotation;
 
 import java.lang.annotation.Documented;
 import java.lang.annotation.ElementType;

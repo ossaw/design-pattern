@@ -1,6 +1,6 @@
 package com.github.singleton.lazy.notthreadsafe;
 
-import com.github.annotation.NotThreadSafe;
+import com.github.singleton.annotation.NotThreadSafe;
 
 @NotThreadSafe
 public class Singleton {

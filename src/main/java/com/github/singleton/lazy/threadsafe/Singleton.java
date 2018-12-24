@@ -1,6 +1,6 @@
 package com.github.singleton.lazy.threadsafe;
 
-import com.github.annotation.ThreadSafe;
+import com.github.singleton.annotation.ThreadSafe;
 
 @ThreadSafe
 public class Singleton {

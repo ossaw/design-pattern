@@ -1,6 +1,6 @@
 package com.github.singleton.dcl;
 
-import com.github.annotation.ThreadSafe;
+import com.github.singleton.annotation.ThreadSafe;
 
 /**
  * @since jdk 1.5
