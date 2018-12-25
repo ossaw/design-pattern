@@ -6,7 +6,7 @@ public abstract class ColdDrink implements Item {
     public Package packing() {
         return new Bottle();
     }
-    
+
     @Override
     public String name() {
         return getClass().getSimpleName();

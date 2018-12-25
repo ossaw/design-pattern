@@ -16,5 +16,5 @@ public class Cricket extends Game {
     public void startPlay() {
         System.out.println("Cricket Game Started. Enjoy the game!");
     }
-    
+
 }

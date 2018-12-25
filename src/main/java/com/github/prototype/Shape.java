@@ -10,7 +10,7 @@ public abstract class Shape implements Cloneable {
         this.id = id;
         this.type = type;
     }
-    
+
     protected abstract void draw();
 
     public String getId() {

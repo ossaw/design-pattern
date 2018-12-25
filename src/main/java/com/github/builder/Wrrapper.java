@@ -6,7 +6,7 @@ public class Wrrapper implements Package {
     public String pack() {
         return this.toString();
     }
-    
+
     @Override
     public String toString() {
         return getClass().getSimpleName();

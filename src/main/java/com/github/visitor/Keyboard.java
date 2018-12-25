@@ -6,7 +6,7 @@ public class Keyboard implements ComputerPart {
     public void accept(ComputerPartVisitor visitor) {
         visitor.visit(this);
     }
-    
+
     @Override
     public String toString() {
         return "Display keyboard.";

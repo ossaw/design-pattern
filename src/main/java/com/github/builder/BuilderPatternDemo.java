@@ -8,14 +8,14 @@ public class BuilderPatternDemo {
         Meal vegMeal = mealBuilder.propareVegMeal();
         vegMeal.showItems();
         vegMeal.showPrice();
-        
+
         println();
 
         Meal chickenMeal = mealBuilder.prepareChickenMeal();
         chickenMeal.showItems();
         chickenMeal.showPrice();
     }
-    
+
     public static void println() {
         System.out.println();
     };
